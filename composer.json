@@ -1,0 +1,46 @@
+{
+    "name": "msgphp/eav",
+    "type": "library",
+    "description": "A domain layer providing basic EAV management",
+    "keywords": [
+        "domain-driven-design",
+        "ddd",
+        "rich domain model",
+        "entity-attribute-value",
+        "eav"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roland Franssen",
+            "email": "franssen.roland@gmail.com"
+        }
+    ],
+    "require": {
+        "msgphp/domain": "^0.15"
+    },
+    "require-dev": {
+        "doctrine/orm": "^2.6",
+        "symfony/messenger": "^4.4 || ^5.0"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.15-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "MsgPhp\\Eav\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}

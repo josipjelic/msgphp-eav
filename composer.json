@@ -1,5 +1,5 @@
 {
-    "name": "josipjelic/eav",
+    "name": "josipjelic/msgphp-eav",
     "type": "library",
     "description": "A domain layer providing basic EAV management",
     "repositories": [

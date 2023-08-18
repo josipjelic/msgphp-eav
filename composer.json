@@ -2,6 +2,13 @@
     "name": "msgphp/eav",
     "type": "library",
     "description": "A domain layer providing basic EAV management",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/josipjelic/msgphp-domain.git",
+            "canonical": false
+        }
+    ],
     "keywords": [
         "domain-driven-design",
         "ddd",
